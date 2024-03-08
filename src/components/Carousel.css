@@ -1,0 +1,73 @@
+/* Update button styles */
+.btn1,
+.btn2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  border: 5px solid #666; 
+  width: 50px;
+  height: 100%;
+  background-color: #ccc; 
+  font-size: 35px;
+  opacity: 1; 
+}
+
+/* Update body background and margin */
+body {
+  background-color: #f2f2f2; 
+  margin: 0; 
+}
+
+/* Update image styles for mobile responsiveness */
+img {
+  max-width: 100%; /* Ensure images are responsive within their containers */
+  height: auto; /* Maintain aspect ratio on mobile devices */
+}
+
+/* Update other elements for mobile responsiveness */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Change flex direction for mobile layout */
+  text-align: center; /* Center align content for better mobile display */
+}
+
+.sidebtn {
+  color: #666;
+  background-color: #f2f2f2; 
+  align-content: center;
+  margin: 10px;
+  padding: 10px; 
+  border-radius: 100px;
+  opacity: 0.9;
+}
+
+.texter {
+  background-color: #f2f2f2; 
+  text-align: center;
+  padding: 10px; 
+  border-radius: 15px;
+  opacity: 0.9;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+  background-color: #f2f2f2; 
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h3 {
+  font-size: 20px; 
+  text-align: center; 
+}
+
+@media (max-width: 768px) {
+  .btn1,
+  .btn2 {
+    width: 100%;
+  }
+}
